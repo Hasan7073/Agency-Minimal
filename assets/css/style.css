@@ -106,15 +106,18 @@ img{
 
 
 .hero-section{
-
+background: #F6F8FB;
+    overflow: hidden;
+    display: block;
 }
 .header-area{
 
 }
 .container{
 width: 100%;
-    max-width:1200px;
+    max-width: 1200px;
     margin: auto;
+    padding-top: 25px;
 }
 .logo-area{
     float: left;
@@ -130,19 +133,26 @@ width: 100%;
 }
 /*======nav-menu=======*/
 .nav-menu{
-    float: left;
+       float: left;
     display: inline-block;
     overflow: hidden;
     width: 60%;
+    padding-top: 10px
 }
 .nav-menu ul{
-
+    text-align: center;
 }
 .nav-menu ul li{
-
+display: inline;
+    padding-left: 40px;
 }
 .nav-menu ul li a{
-
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    color: #02073E;
 }
 /*=====reg-batton=====*/
 
@@ -151,10 +161,20 @@ float: left;
 width: 20%;
 }
 .reg-batton{
-    float: right;
+ float: right;
+    border: 1px solid;
+    padding: 13px 26px;
+    color: #8D448B;
+;
 }
 .reg-batton a{
-
+font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.16px;
+    color: #8D448B;
 }
 
 
