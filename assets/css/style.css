@@ -105,4 +105,58 @@ img{
 /*====================*/
 
 
+.hero-section{
+
+}
+.header-area{
+
+}
+.container{
+width: 100%;
+    max-width:1200px;
+    margin: auto;
+}
+.logo-area{
+    float: left;
+    display: inline-block;
+    width: 20%;
+}
+
+.logo-area a{
+
+}
+.logo-area a img{
+
+}
+/*======nav-menu=======*/
+.nav-menu{
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    width: 60%;
+}
+.nav-menu ul{
+
+}
+.nav-menu ul li{
+
+}
+.nav-menu ul li a{
+
+}
+/*=====reg-batton=====*/
+
+.reg-section{
+float: left;
+width: 20%;
+}
+.reg-batton{
+    float: right;
+}
+.reg-batton a{
+
+}
+
+
+
 
