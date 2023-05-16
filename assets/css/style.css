@@ -106,9 +106,10 @@ img{
 
 
 .hero-section{
-background: #F6F8FB;
+    background: #F6F8FB;
     overflow: hidden;
     display: block;
+    padding-bottom: 70px;
 }
 .header-area{
 
@@ -154,7 +155,7 @@ display: inline;
     line-height: 33px;
     color: #02073E;
 }
-/*=====reg-batton=====*/
+/*=====reg-button=====*/
 
 .reg-section{
 float: left;
@@ -176,6 +177,116 @@ font-family: 'DM Sans';
     letter-spacing: -0.16px;
     color: #8D448B;
 }
+
+/*=====banner-area=====*/
+.banner-area{
+    padding-top: 144px;
+}
+.container{
+
+}
+.banner_left_section{
+float: left;
+width: 50%;
+}
+.text-area{
+width: 550px;
+}
+.text-area h1{
+font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: -1.5px;
+    color: #02073E;
+}
+
+.text-area p{
+font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 42px;
+    color: #02073E;
+    padding-top: 28px;
+}
+.sub_form{
+ padding-top: 28px;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+.Subs-new-batton{
+    float: left;
+    color: #fff;
+    background: #ffffff;
+    padding: 10px 100px;
+    margin-right: 15px;
+}
+
+.Subs-new-batton a{
+font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #02073E;
+    opacity: 0.4;
+}
+.Subscribe-batton{
+float: left;
+    color: #fff;
+    background: #8D448B;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.Subscribe-batton a{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 40px;
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.sponser_section{
+
+}
+.sponser_section h4{
+      font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 42px;
+    color: #566272;
+    opacity: 0.6;
+    float: left;
+}
+
+.sponser_img{
+    float: left;
+    padding: 10px 15px;
+}
+
+.sponser_img img{
+    padding-left: 10px;
+}
+
+.banner_right_section{
+float: right;
+width: 50%;
+}
+
+.banner_right_section img{
+
+}
+
+
 
 
 
