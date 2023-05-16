@@ -162,11 +162,10 @@ float: left;
 width: 20%;
 }
 .reg-batton{
- float: right;
-    border: 1px solid;
-    padding: 13px 26px;
+float: right;
+    border: 2px solid;
+    padding: 10px 26px;
     color: #8D448B;
-;
 }
 .reg-batton a{
 font-family: 'DM Sans';
@@ -285,6 +284,166 @@ width: 50%;
 .banner_right_section img{
 
 }
+
+/*=====quality-features=====*/
+
+.quality-features{
+display: block;
+    overflow: hidden;
+}
+.container{
+
+}
+
+.quality-heading{
+  padding-top: 60px;
+}
+.quality-heading h4{
+font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #8D448B;
+}
+.quality-heading h1{
+font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: -1.5px;
+    color: #0F2137;
+}
+.quality-single-contant{
+padding-top: 78px;
+}
+.quality-single{
+    float: left;
+    width: 20%;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.quality-single img{
+
+}
+.quality-single h2{
+font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #0F2137;
+    padding-top: 21px;
+}
+.quality-single p{
+font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #343D48;
+    padding-top: 20px;
+}
+
+/*=====quality-features end=====*/
+/*=====agencies-section start=====*/
+.agencies-section{
+display: block;
+    overflow: hidden;
+    padding-top: 130px;
+}
+.container{
+
+}
+.agencies-left-part{
+    float: left;
+    width: 50%;
+}
+.agencies-left-part img{
+
+}
+
+.agencies-right-part{
+float: left;
+    width: 40%;
+    padding-left: 100px;
+    padding-top: 70px;
+}
+.agencies-right-heading h1{
+font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -1.5px;
+    color: #0F2137;
+}
+.agencies-right-heading p{
+font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 34px;
+    color: #02073E;
+    opacity: 0.6;
+    padding-top: 22px;
+}
+.check-point{
+
+
+}
+.check-point-single {
+ padding-top: 22px;   
+}
+.check-point-single img{
+     float: left;
+    padding-right: 10px;
+    padding-top: 13px;
+}
+.check-point-single p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 45px;
+    color: #02073E;
+}
+.learn-button{
+padding-top: 10px;
+}
+
+.learn-button a{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 42px;
+    color: #8D448B;
+    padding-left: 30px;
+}
+
+/*=====agencies-section end=====*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
