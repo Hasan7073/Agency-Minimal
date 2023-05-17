@@ -184,98 +184,95 @@ font-family: 'DM Sans';
 .container{
 
 }
-.banner_left_section{
+.custom_area{
 float: left;
 width: 50%;
 }
-.text-area{
-width: 550px;
+.custom_area h4{
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 80px;
+letter-spacing: -1.5px;
+color: #02073E;
+ padding-bottom: 28px;
 }
-.text-area h1{
-font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 80px;
-    letter-spacing: -1.5px;
-    color: #02073E;
-}
-
-.text-area p{
-font-family: 'DM Sans';
+.custom_area p{
+      font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 42px;
     color: #02073E;
-    padding-top: 28px;
+    padding-bottom: 45px;
+
 }
-.sub_form{
- padding-top: 28px;
-    padding-bottom: 60px;
+.custom_btn {
+    margin-bottom: 60px;
     overflow: hidden;
 }
-.Subs-new-batton{
-    float: left;
-    color: #fff;
-    background: #ffffff;
-    padding: 10px 120px;
-    margin-right: 15px;
-}
+.custom_btn input[type=text]{
+  /*=====banner-area
+  opacity: 0.4;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 50px rgba(48, 98, 145, 0.08);
+  border-radius: 5px;
+  float: left;
+  overflow: hidden;
+  padding-left: 15px;
+  margin-right: 15px;
+  height: 48px;
+  left: 284px;
+  top: 605px;=====*/
 
-.Subs-new-batton a{
-font-family: 'DM Sans';
+      font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 40px;
     color: #02073E;
     opacity: 0.4;
-}
-.Subscribe-batton{
-float: left;
-    color: #fff;
+    float: left;
+    padding-right: 80px;
+} 
+.custom_btn input[type=submit]{
+    padding: 13px 35px;
+    color: #FFFFFF;
+    box-sizing: border-box;
     background: #8D448B;
-    padding: 10px 35px;
+    border: 2px solid #8D448B;
     border-radius: 5px;
-}
-
-.Subscribe-batton a{
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 40px;
-
-text-align: center;
-
-color: #FFFFFF;
-
-}
-
-.sponser_section{
-
-}
-.sponser_section h4{
-      font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 42px;
-    color: #566272;
-    opacity: 0.6;
+    overflow: hidden  ;
     float: left;
+    margin-left: 5px;
+    cursor: pointer;
 }
-
-.sponser_img{
+.hero_section{
+  background: #F6F8FB;
+  padding-top: 90px;
+  padding-bottom: 95px;
+  overflow: hidden;
+}
+.sponsor_logo ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sponsor_logo ul li{
+  color: #566272;
+  opacity: 0.6;
+  float: left;
+  font-size: 16px;
+  line-height: 42px;
+  overflow: hidden;
+}
+.sponsor_logo ul li a img {
     float: left;
-    padding: 10px 15px;
-}
-
-.sponser_img img{
     padding-left: 10px;
+    overflow: hidden;
+    width: 91px;
 }
-
 .banner_right_section{
 float: right;
 width: 50%;
@@ -404,14 +401,12 @@ font-family: 'DM Sans';
 .check-point-single img{
      float: left;
     padding-right: 10px;
-    padding-top: 13px;
 }
 .check-point-single p{
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 45px;
     color: #02073E;
 }
 .learn-button{
@@ -476,12 +471,17 @@ font-family: 'DM Sans';
     color: #8D448B;
     padding-left: 30px;
 }
-.leading-companies-contant{
-
+.video_area{
+  width: 1110px;
+  height: 625px;
+  margin: auto;
+  margin-top: 40px;
 }
-.leading-companies-contant img{
-
+.video_area video{
+  width: 100%;
+  height: 100%;
 }
+
 
 /*=====customers-contant=====*/
 
@@ -559,7 +559,6 @@ float: left;
     line-height: 20px;
     color: #0F2137;
 }
-}
 .customers-person-details p{
 font-family: 'DM Sans';
     font-style: normal;
@@ -571,7 +570,130 @@ font-family: 'DM Sans';
 }
 /*=====customers-contant-end=====*/
 
+/*....start Customer support....*/
 
+.customer_support{
+background: #FFF;
+padding-top: 100px;
+padding-bottom: 110px;
+}
+.container{
+
+}
+.customer_support_content{
+  width: 100%;
+}
+.support_content{
+  width: 40%;
+  margin-right: 93px;
+  float: left;
+  overflow: hidden;
+}
+.support_content h2{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 43px;
+line-height: 60px;
+letter-spacing: -1.5px;
+color: #0F2137;
+margin-bottom: 24px;
+}
+.support_image{
+}
+.support_image img{
+}
+
+.support_content p{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 35px;
+color: #343D48;
+margin-bottom: 24px;
+}
+.learn_content p{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 34px;
+color: #02073E;
+opacity: 0.6;
+}
+.learn_content a{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 42px;
+color: #8D448B;
+}
+/*....End Customer support....*/
+/*Start Tutorials Features*/
+.tutoials_features{
+background: #F6F8FB;
+padding-bottom: 75px;
+}
+.container{
+
+}
+.tutorials_content h4{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 40px;
+text-align: center;
+text-transform: capitalize; 
+color: #8D448B;
+margin-top: 57px;
+}
+.tutorials_content h2{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 55px;
+text-align: center;
+letter-spacing: -1.5px;
+color: #0F2137;
+margin-bottom: 68px;
+}
+/*Start Tutorials Features*/
+
+.box_feature_area{
+  width: 100%;
+  float: left;
+  overflow: hidden;
+
+}
+.single_box_feature{
+float: left;
+    overflow: hidden;
+    margin: 1%;
+    width: 31%;
+    background: #FFFFFF;
+    border: 1px solid #F3F4F5;
+    border-radius: 10px;
+}
+.single_box_feature img{
+
+}
+.single_box_feature h3{
+  margin: 25px;
+
+}
+.single_box_feature p{
+  margin-bottom: 35px;
+  margin-left: 25px;
+
+}
+.single_box_feature p img{
+margin-right: 8px;
+}
+/*End Tutorials Features*/
 
 
 
