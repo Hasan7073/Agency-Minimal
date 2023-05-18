@@ -234,10 +234,10 @@ color: #02073E;
     color: #02073E;
     opacity: 0.4;
     float: left;
-    padding-right: 80px;
+    padding-right: 90px;
 } 
 .custom_btn input[type=submit]{
-    padding: 13px 35px;
+    padding: 13px 50px;
     color: #FFFFFF;
     box-sizing: border-box;
     background: #8D448B;
@@ -245,7 +245,7 @@ color: #02073E;
     border-radius: 5px;
     overflow: hidden  ;
     float: left;
-    margin-left: 5px;
+    margin-left: 10px;
     cursor: pointer;
 }
 .hero_section{
@@ -633,8 +633,9 @@ color: #8D448B;
 /*....End Customer support....*/
 /*Start Tutorials Features*/
 .tutoials_features{
-background: #F6F8FB;
-padding-bottom: 75px;
+   background: #F6F8FB;
+    padding-bottom: 175px;
+    overflow: hidden;
 }
 .container{
 
@@ -695,12 +696,124 @@ margin-right: 8px;
 }
 /*End Tutorials Features*/
 
+/*developer-section*/
+.developer-section{
+
+}
+.container{
+
+}
+.dev-contant{
+    background: #8D448B;
+    border-radius: 8px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin-top: -86px;
+}
+.dev-contant-left{
+    float: left;
+    max-width: 521px;
+    width: 100%;
+    margin: auto;
+}
+.dev-contant-left h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 55px;
+    letter-spacing: -1.5px;
+    color: #FFFFFF;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    padding-left: 70px;
+}
+.dev-contant-right{
+float: left;
+}
+.dev-contant-right img{
+padding-top: 40px;
+padding-left: 15px;
+width: 250px;
+}
+.dev-button{
+    float: right;
+    background: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin: 70px 70px;
+}
+.dev-button a{
+font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #8D448B;
+}
+
+/*developer-section end*/
+
+/*footer-section start*/
 
 
+.footer-section{
+padding-bottom: 40px;
+    padding-top: 60px;
+    display: block;
+    overflow: hidden;
+}
+.container{
 
+}
+.footer-left{
+float: left;
+}
+..footer-left a{
 
+}
 
+.footer-left a img {
+float: left;
+}
 
+.footer-left p{
+float: left;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #0F2137;
+    opacity: 0.6;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.footer-right{
+float: right;
+}
+.footer-right ul{
+
+}
+.footer-right ul li{
+display: inline-block;
+    padding-right: 10px;
+}
+.footer-right ul li a{
+font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    text-align: right;
+    color: #02073E;
+}
+
+/*footer-section end*/
 
 
 
